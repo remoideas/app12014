@@ -1,0 +1,41 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>P28</title> 
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="preview_container"> 
+	<layer visibility="hide"> 
+	</layer>
+	<div class="iphone_container"> 
+		<div class="preview_content"> 
+	  		<iframe name="bob" id="datamain" src="simul.html" width=320 height=468 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=1 scrolling=no style="border:none;"></iframe> 
+ 		</div> 
+	</div> 
+</div>
+<script type="text/javascript">
+
+var thespeed=3 //Enter scroll speed in integer (Advised: 1-3)
+
+var myspeed=0  //Set for initial scrolling, if desired (ex:3), otherwise 0
+
+/////////////////Stop Editing///////////////
+function scrollwindow(){
+bob.scrollBy(0,myspeed)
+}
+
+function initializeIT(){
+if (myspeed!=0){
+scrollwindow()
+}
+}
+
+if (document.all||document.getElementById)
+setInterval("initializeIT()",20)
+
+</script>
+</body> 
+</html> 

@@ -1,0 +1,21 @@
+body{ padding:0; font-family: Arial; font-size:11px; margin: 0 auto; color: #ffffff; background-color: #171717; }
+.preview_container{ width:100%; margin: 0 auto; text-align: center; background-color: #171717; }
+.iphone_container{ width:380px; height:678px; margin:0 auto; padding:0px; background:url('iphone.png') no-repeat center; background-size: 340px;}
+.preview_content{ width:320px; height:480px; padding: 130px 0 0 32px;  }
+.nav{ float:left; padding:300px 0 0 0;  text-align:center; width:150px; }
+.nav p{ font-family: Arial; color:#fff; font-size:18px; font-style:italic; line-height:20px; }
+.nav a{ margin:0 10px 0 10px; }
+
+
+.atras {
+
+	text-align: center;
+
+}
+
+.atras a {
+
+	color: white;
+	font-size: 15px;
+
+}

@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
+
+.ui-page {
+
+	color: white;
+	text-shadow:none;
+	font-family: 'Lato', sans-serif;
+
+}
+
+#pizza-home {
+	
+	background-image: url(../img/fondoaap.jpg);
+	background-size: cover;
+
+}
+
+#pizza-home .ui-header {
+
+	background-color: transparent;
+	border:none;
+
+}
+
+#pizza-home .ui-header h1 {
+
+	font-size: 40px;
+	font-weight: 300;
+	margin: 0 20%;
+	text-shadow:none;
+	color: #FA0000;
+}
+
+#pizza-home .ui-header h1 i {
+	
+	color: white;
+
+}
+
+
+#pizza-home .ui-footer {
+
+	background-color: transparent;
+	border:none;
+
+}
+
+#pizza-home .ui-footer h4 {
+
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0 20%;
+	text-shadow:none;
+	color: white;
+
+}
+
+#pizza-home .ui-content {
+
+	padding-top: 25%;
+
+}
+
+#pizza-home .ui-content .ui-input-text {
+	
+	box-shadow: none;
+	border: none;
+	text-shadow:none;
+	
+	border-radius: 2px;
+	padding: 10px 10px;
+
+}
+
+#pizza-home .ui-content button {
+	
+	box-shadow: none;
+	border: none;
+	text-shadow:none;
+	border-radius: 2px;
+	padding: 10px 10px;
+
+	border: 2px solid white;
+	color: white;
+	background-color: transparent;
+	font-size: 25px;
+	font-weight: lighter;
+
+}
+
+
+#pizza-home .ui-content button:hover {
+	
+	background-color: white;
+	color: black;
+
+}
+
