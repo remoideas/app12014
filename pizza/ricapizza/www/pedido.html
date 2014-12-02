@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="themes/ejemplo1.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.3.min.css" /> 
+	<link rel="stylesheet" href="css/style.css" />
+
+	<script src="js/jquery-1.11.1.min.js"></script> 
+	<script src="js/jquery.mobile-1.4.3.min.js"></script> 
+
+</head>
+<body>
+
+<div data-role="page" id="pizza-pedido" class="ricapizza">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Pedido</h1>
+		<h2>Confirma tu pedido</h2>
+	</div>
+
+	<div role="main" class="ui-content">
+	
+		<div class="wrap-pedido">
+				
+			<h4>Orden</h4>
+
+			<div class="pedido">
+					
+				<table width="100%">
+					<tr>
+						<th width="60%">Concepto</th>
+						<th width="40%">P.U.</th>
+					</tr>
+					<tr class="orden">
+						<td>1 Pizza</td>
+						<td>$150.00</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<ul>
+								<li>Masa Original</li>
+								<li>Pepperoni</li>
+								<li>Champiñones</li>
+								<li>Aceitunas</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+
+				<div class="total">
+					<table width="100%">
+						<tr>
+							<th width="60">TOTAL</th>
+							<th width="40%">$150.00</th>
+						</tr>
+					</table>
+				</div>
+
+				<a href="#">Pagar y ordenar</a>
+
+			</div>
+
+		</div>
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed"  >
+
+	</div>
+
+</div><!-- /page -->
+
+</body>
+</html>
